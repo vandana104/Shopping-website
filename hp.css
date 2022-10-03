@@ -1,0 +1,229 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;  
+}
+.out{
+    background: rgb(233, 230, 230);
+    height:100%;
+    width: 96%;
+    margin-left: 1.5rem;
+}
+.topNside{
+    display:flex;
+    width: 100%;
+    height: 90%;
+}
+.sideBar{
+    left: 0%;
+    top: 0%;
+    height:100%;
+    width: 20%;
+    background:white;
+}
+.title{
+    margin-left: 3rem;
+    padding-top: 1.5rem;
+    font-size: 1.4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.subTitles{
+    padding-top: 1.5rem;
+    list-style-type: none;  
+    text-decoration: none;
+}
+.try li{
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+.try li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 1.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.set{
+    padding-top: 10rem;
+    padding-left: 1.5rem;
+    height: 1rem;
+    width: 5rem;
+}
+.button{
+    height: 2rem;
+    width: 80%;
+    border: none;
+    border-radius: 0.5rem;
+    padding-right: 2rem;
+    margin-top: 27rem;
+    margin-left: 1rem;
+    color: grey;
+    background: rgb(233, 230, 230);;
+    font-size: 1.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.logOut{
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    padding-left: 2rem;
+    margin-bottom: 1.5rem;
+    color: grey;
+    font-size: 1.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* ICON */
+.top{
+    height: 4rem;
+    width: 100%;
+    background:white;
+}
+.titleBar{
+    width: 35%;
+    height: 70%;
+    margin-left: 2rem;
+    margin-top: 0.6rem;
+    border: none;
+    border-radius: 0.5rem;
+    background:rgb(233, 230, 230);
+}
+.topNcontent{
+    width: 77%;
+}
+.content{
+    height:85%;
+    width: 55rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: white;
+}
+.settings{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+ .column1 {
+    margin-top: 1.5rem;
+    padding: 00.5rem;
+    border: none;
+    border-radius: 0.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.column1 a{
+    text-decoration: none;
+    color: grey;
+    margin-top: 1.5rem;
+    padding: 00.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.myDetails {
+    margin-left: 0.4rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.myDetails a{
+    text-decoration: none;
+    color: grey;
+    padding: 0.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.profile{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+.updatePhoto{
+    margin-top: 0.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: grey;
+
+}
+.lineBreak{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    height: 0px;
+    background:  rgb(235, 228, 228);
+ 
+}
+.wrapper{
+    display: flex;
+    flex-direction:  column;
+    color: grey;
+
+}
+.inPut{
+    height: 2rem;
+    width: 20rem;
+    border: solid rgb(218, 213, 213);
+    border-width: 0.1rem;
+    border-radius: 00.2rem;
+    margin-top: 0.5rem;
+   
+}
+.parentWrapper{
+    display: flex;
+    flex-direction: row;
+    color: grey;
+
+}
+.wrapper2 , .gender{
+    margin-left: 2rem;
+    margin-top: 2rem;
+} 
+.mail{
+    color: grey;
+}
+.email{
+    height: 2rem;
+    width: 42rem; 
+    border: solid rgb(218, 213, 213);
+    border-width: 0.1rem;
+    border-radius: 00.2rem;
+    margin-top: 0.5rem;
+}
+.sentence{
+    color: grey;
+
+}
+.column{
+    display: flex;
+    flex-direction: row;
+}
+.imaGe{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+    margin-left: 2rem;
+}
+.yourphotoNdelete{
+    display: flex;
+    flex-direction: row;
+}
+.sentence{
+    margin-top: 0.5rem;
+}
+.deleteNupdate{
+    margin-left: 20rem;
+    margin-top: 2rem;
+    color: grey;
+}
+.update{
+    margin-left: 1rem;
+    text-decoration: none;
+}
+.socialProfile{
+    display: flex;
+    flex-direction: row;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15rem;
+}
+#secondLabel{
+    margin-top: 1rem;
+}
