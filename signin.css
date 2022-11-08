@@ -7,7 +7,6 @@
     height: 595px;
     width: 433px;
     margin-left: 430px;
-    margin-top: 15px;
     background:rgb(241, 241, 241);
 }
 .getStarted{
@@ -102,51 +101,6 @@
     margin-top: 1rem;
     margin-left: 9rem;
 }
-/* .signIn{
-    height: 2.8rem;
-    width: 27.1rem;
-    margin-top: 0.1rem;
-    margin-bottom: 0.3rem;
-    border-radius: 0.4rem;
-    border-width: 0rem;
-    font-size: large;
-    color: white;
-    background:mediumorchid;
-} */
-
-/* .submitButton{
-    height: 2.8rem;
-    width: 27.1rem;
-    margin-top: 0.1rem;
-    margin-bottom: 0.3rem;
-    border-radius: 0.4rem;
-    border-width: 0rem;
-    font-size: large;
-    color: white;
-    background:mediumorchid;
-    text-decoration: none;
-    
-} */
-/* .submitButton a{} */
-    /* height: 2.8rem;
-    width: 27.1rem; */
-    /* margin-top: 0.1rem;
-    margin-bottom: 0.3rem;
-    border-radius: 0.4rem;
-    border-width: 0rem; */
-    /* font-size: large;
-    border: none;
-    color: white;
-    background:mediumorchid;
-    text-decoration: none;} */
-/* .submitButton{
-    height: 1rem;
-    width: 27.1rem;
-} */
-/* .signIn{
-    border: none;
-    margin-left: 4rem;
-} */
 .signIn {
     font-size: large;
     color: white;
